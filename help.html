@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Government Reporting Services</title>
+</head>
+<body>
+    <div class="top">
+        <div class="header">
+               <a href="index.html">
+                <img src="img/logos/cogta-logo.png.png" alt="Site-Logo" class="site-logo">
+               </a>
+        </div>
+
+        <nav class="nav-menu">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="live-dashboards.html">Live Dashboards</a></li>
+                <li><a href="sign-off-applications.html" >Sign-Off Applications</a></li>
+                <li><a href="capture-applications.html">Capture Applications</a></li>
+                <li><a href="help.html" class="selected">Help</a></li>
+            </ul>
+        </nav>
+
+        <!--Mobile Menu-->
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <ul class="dropdown-content">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="live_dashboards.html">Live Dashboards</a></li>
+                <li><a href="sign-off-applications.html">Sign-Off Applications</a></li>
+                <li><a href="capture-applications.html">Capture Applications</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+            </div>
+
+    </div>
+    <div class="welcome-banner">
+         <img src="img/help-assistance.jpg" alt="" class="banner-image">
+            <div class="banner-content">
+                <h1>NORTH WEST MUNICIPAL MONITORING & REPORTING PORTAL</h1>
+                <br>
+                <p>See Information and Links below</p>
+            </div>
+    </div>
+    <div class="bar"></div>
+
+    <div class="info-sec-help">
+        <div class="left">
+           <img src="img/help-desk-illustration.png" class="help-desk" alt="">
+        </div>
+        <div class="right">
+            <div class="form-container">
+                <h2>Have a question? Email Us</h2>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                  <div class="form-group">
+                    <input type="hidden" name="access_key" value="66e8c4ba-5dd2-408c-a393-a04b849e4865">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required placeholder="Enter the subject">
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+                  </div>
+            
+                  <button type="submit">Send Message</button>
+                </form>
+              </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h1 class="footer-info">
+            Contact Us
+        </h1>
+        <p>For enquiries, please email support@municsolutions.co.za</p>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
