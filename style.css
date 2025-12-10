@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
+    background-color:#ffffff;
     position: sticky;
     top: 0;
     left: 0;
@@ -95,6 +95,7 @@
     display: flex;
     margin-left: auto;
     padding-right: 20px;
+    position: sticky;
 }
 
 .nav-list {
@@ -687,6 +688,9 @@ body, html {
     color: #573712;
   }
 */
+
+
+
 
 
 
